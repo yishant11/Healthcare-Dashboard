@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sectiondiv{
+    background-color: white;
+    border-radius: 16px;
+    position: relative;
+    top: 60px;
+    left: 24px;
+    width: 367px;
+    height: 1090px;
+}
+
+.searchdiv{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 32vh;
+}
+
+.searchdiv #searchicon{
+    cursor: pointer;
+}
+
+.searchdiv h1{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Manrope", sans-serif;
+}
+
+.eachpeoplediv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.eachpeopledes{
+    display: flex;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section2div{
+    background-color: white;
+    border-radius: 16px;
+    position: relative;
+    top: 60px;
+    left: 24px;
+    width: 667px;
+    height: 1090px;
+}

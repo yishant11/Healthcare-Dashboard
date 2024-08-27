@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section3div{
+    background-color: white;
+    border-radius: 16px;
+    position: relative;
+    top: 60px;
+    left: 24px;
+    width: 367px;
+    height: 700px;
+}
+
+#onepeopleimg{
+    position: relative;
+    top: 30px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+}
+
+.onepeopledes{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    top: 55px;
+}
+
+.onepeopledes li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+p{
+    font-family: "Manrope", sans-serif;
+}
+
+h1{
+    font-family: "Manrope", sans-serif;
+}

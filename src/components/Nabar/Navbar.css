@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+}
+
+.maindiv{
+    background: white;
+    width: 97%;
+    height: 72px;
+    border-radius: 70px;
+    position: relative;
+    top: 18px;
+    left: 18px;
+}
+
+.navbar{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.navbardiv{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    position: relative;
+    left: 113px;
+}
+
+.navbardiv li {
+    display: flex;             
+    align-items: center;       
+    justify-content: center;   
+    width: 122px;
+    height: 41px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.navbardiv li:hover {
+    background-color: #01F0D0;
+    border-radius: 41px;
+}
+
+.navbar li{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+.logo{
+    width: 211px;
+    height: 48px;
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logoimg{
+    height: 15px;
+    width: 15px;
+}
+
+.doctorprofile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: 230px;
+}
+
+.vertical-line {
+    width: 1px;     
+    height: 40px;    
+    background-color: grey;
+}
+
+.namediv p{
+    font-size: 14px;
+}
+
+.namediv h2{
+    font-size: 14px;
+}
