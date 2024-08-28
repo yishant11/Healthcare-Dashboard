@@ -22,19 +22,19 @@ const Navbar = () => {
         <div className='navbardiv'>
           <li>
             <img src={Homelogo} className='logoimg' alt="homeIcon" />
-            <a href=''> Overview </a>
+            <a href='#'> Overview </a>
           </li>
           <li>
             <img src={People} className='logoimg' alt="" style={{width:"20px"}}/>
-            <a href=''> Patients </a>
+            <a href='#'> Patients </a>
           </li>
           <li>
             <img src={CalenderIcon} className='logoimg' alt="" />
-            <a href=''> Schedule </a>
+            <a href='#'> Schedule </a>
           </li>
           <li>
             <img src={MessageIcon} className='logoimg' alt="" />
-            <a href=''> Message </a>
+            <a href='#'> Message </a>
           </li>
           <li>
             <img src={TransactionIcon} className='logoimg' alt="" />

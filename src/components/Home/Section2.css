@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,5 +13,87 @@
     top: 60px;
     left: 24px;
     width: 667px;
-    height: 1090px;
+    height: 900px;
+    flex:8
+}
+
+
+.searchdiv{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 32vh;
+}
+
+.graph-box{
+    padding: 20px;
+    width: 100%;
+    background-color: #F4F0FE;
+    margin-top: 40px;
+    display: flex;
+}
+
+.graph-box-heading{
+    font-size: 18px;
+}
+
+.graph-box-right-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.threediv{
+    display:flex;
+    /* justify-content:space-between;  */
+    gap: 50px;
+    position: relative;
+    top: 26px; 
+    left: 26px;
+    align-items:center;
+}
+
+.blooddiv{
+    width: 200px;
+    border-radius: 12px;
+    height: 242px;
+    background-color: #E0F3FA;
+
+}
+
+.tempdiv{
+    width: 200px;
+    height: 242px;
+    border-radius: 12px;
+    background-color: #FFE6E9;
+}
+
+.respidiv{
+    width: 200px;
+    height: 242px;
+    border-radius: 12px;
+    
+    background-color: #FFE6F1;
+}
+
+
+
+.three{
+    font-family: "Manrope", sans-serif;
+    margin-top: 18px;
+    font-size: 16px;
+    color: #072635;
+    font-weight: 500;
+    margin-left: 18px;
+}
+
+.commondata{
+    font-size: 41px;
+    font-weight: bold;
+    position: relative;
+    left: 17px;
 }
